@@ -3,9 +3,18 @@
   "version": "1.0.0",
   "description": "backend for video streaming platform",
   "main": "server.js",
-  "scripts": {
-    "test": "start"
-  },
+  "type": "module",
+ "scripts": {
+  "dev": "nodemon -r dotenv/config src/server.js"
+},
   "author": "wijdan habib",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.1"
+  }
 }
