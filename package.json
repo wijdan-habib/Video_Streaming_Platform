@@ -1,0 +1,11 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for video streaming platform",
+  "main": "server.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "wijdan habib",
+  "license": "ISC"
+}
